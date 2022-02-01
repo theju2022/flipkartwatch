@@ -1,0 +1,45 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-model/src/main/java;E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-model/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-model/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'watch-model 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-model/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'watch-model 1.0-SNAPSHOT API'
+flipkart.watch.model
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-model/src/main/java/flipkart/watch/model/Saying.java'
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\src\main\java = 1643731462037
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\generated-sources\annotations = 1643731601080
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\allclasses-index.html = 1643731611091
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\allpackages-index.html = 1643731611106
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\element-list = 1643731610891
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\help-doc.html = 1643731611161
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\index-all.html = 1643731611141
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\index.html = 1643731611151
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\jquery-ui.overrides.css = 1643731611281
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\member-search-index.js = 1643731611116
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\module-search-index.js = 1643731611111
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\overview-tree.html = 1643731611031
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\package-search-index.js = 1643731611116
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\script.js = 1643731611161
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\search.js = 1643731611191
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\stylesheet.css = 1643731611161
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\tag-search-index.js = 1643731611121
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\apidocs\type-search-index.js = 1643731611116

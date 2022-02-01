@@ -1,0 +1,132 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-core/0.8.1/dropwizard-core-0.8.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-util/0.8.1/dropwizard-util-0.8.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar;C:/Users/mothe/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar;C:/Users/mothe/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar;C:/Users/mothe/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-jackson/0.8.1/dropwizard-jackson-0.8.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk7/2.5.1/jackson-datatype-jdk7-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.5.1/jackson-datatype-guava-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.5.1/jackson-module-afterburner-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.5.1/jackson-datatype-joda-2.5.1.jar;C:/Users/mothe/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar;C:/Users/mothe/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-validation/0.8.1/dropwizard-validation-0.8.1.jar;C:/Users/mothe/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar;C:/Users/mothe/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar;C:/Users/mothe/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar;C:/Users/mothe/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar;C:/Users/mothe/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-configuration/0.8.1/dropwizard-configuration-0.8.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.5.1/jackson-dataformat-yaml-2.5.1.jar;C:/Users/mothe/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar;C:/Users/mothe/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-logging/0.8.1/dropwizard-logging-0.8.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-logback/3.1.1/metrics-logback-3.1.1.jar;C:/Users/mothe/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar;C:/Users/mothe/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar;C:/Users/mothe/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.jar;C:/Users/mothe/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-util/9.2.9.v20150224/jetty-util-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-metrics/0.8.1/dropwizard-metrics-0.8.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-jersey/0.8.1/dropwizard-jersey-0.8.1.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/core/jersey-server/2.17/jersey-server-2.17.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/core/jersey-common/2.17/jersey-common-2.17.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.17/jersey-guava-2.17.jar;C:/Users/mothe/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/core/jersey-client/2.17/jersey-client-2.17.jar;C:/Users/mothe/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.17/jersey-media-jaxb-2.17.jar;C:/Users/mothe/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar;C:/Users/mothe/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b10/hk2-api-2.4.0-b10.jar;C:/Users/mothe/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b10/hk2-utils-2.4.0-b10.jar;C:/Users/mothe/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b10/aopalliance-repackaged-2.4.0-b10.jar;C:/Users/mothe/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b10/javax.inject-2.4.0-b10.jar;C:/Users/mothe/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b10/hk2-locator-2.4.0-b10.jar;C:/Users/mothe/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/ext/jersey-metainf-services/2.17/jersey-metainf-services-2.17.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-jersey2/3.1.1/metrics-jersey2-3.1.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.5.1/jackson-jaxrs-json-provider-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.5.1/jackson-jaxrs-base-2.5.1.jar;C:/Users/mothe/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.5.1/jackson-module-jaxb-annotations-2.5.1.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.17/jersey-container-servlet-2.17.jar;C:/Users/mothe/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.17/jersey-container-servlet-core-2.17.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-server/9.2.9.v20150224/jetty-server-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-io/9.2.9.v20150224/jetty-io-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.9.v20150224/jetty-webapp-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.9.v20150224/jetty-xml-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-continuation/9.2.9.v20150224/jetty-continuation-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-servlets/0.8.1/dropwizard-servlets-0.8.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-annotation/3.1.1/metrics-annotation-3.1.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-jetty/0.8.1/dropwizard-jetty-0.8.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-jetty9/3.1.1/metrics-jetty9-3.1.1.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.9.v20150224/jetty-servlet-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-security/9.2.9.v20150224/jetty-security-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.9.v20150224/jetty-servlets-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/jetty-http/9.2.9.v20150224/jetty-http-9.2.9.v20150224.jar;C:/Users/mothe/.m2/repository/io/dropwizard/dropwizard-lifecycle/0.8.1/dropwizard-lifecycle-0.8.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.1/metrics-core-3.1.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.1/metrics-jvm-3.1.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-servlets/3.1.1/metrics-servlets-3.1.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.1/metrics-json-3.1.1.jar;C:/Users/mothe/.m2/repository/io/dropwizard/metrics/metrics-healthchecks/3.1.1/metrics-healthchecks-3.1.1.jar;C:/Users/mothe/.m2/repository/net/sourceforge/argparse4j/argparse4j/0.4.4/argparse4j-0.4.4.jar;C:/Users/mothe/.m2/repository/org/eclipse/jetty/toolchain/setuid/jetty-setuid-java/1.0.2/jetty-setuid-java-1.0.2.jar;E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-model/target/watch-model-1.0-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/src/main/java;E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'watch-service 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'watch-service 1.0-SNAPSHOT API'
+flipkart.watch.conf
+flipkart.watch.health
+flipkart.watch
+flipkart.watch.resource
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/src/main/java/flipkart/watch/conf/HelloWorldConfiguration.java'
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/src/main/java/flipkart/watch/health/TemplateHealthCheck.java'
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/src/main/java/flipkart/watch/HelloWorldService.java'
+'E:/devopsclass2022/j-feb2022/maven/flipkart/republic/watch/watch/watch-service/src/main/java/flipkart/watch/resource/HelloWorldResource.java'
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-core\0.8.1\dropwizard-core-0.8.1.jar = 1643731680461
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-util\0.8.1\dropwizard-util-0.8.1.jar = 1643731680345
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar = 1643731680376
+C:\Users\mothe\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar = 1643731055398
+C:\Users\mothe\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar = 1643731680345
+C:\Users\mothe\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar = 1643731052671
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-jackson\0.8.1\dropwizard-jackson-0.8.1.jar = 1643731680366
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.1\jackson-core-2.5.1.jar = 1643731680890
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.1\jackson-databind-2.5.1.jar = 1643731681200
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk7\2.5.1\jackson-datatype-jdk7-2.5.1.jar = 1643731680918
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-guava\2.5.1\jackson-datatype-guava-2.5.1.jar = 1643731680904
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\module\jackson-module-afterburner\2.5.1\jackson-module-afterburner-2.5.1.jar = 1643731680971
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-joda\2.5.1\jackson-datatype-joda-2.5.1.jar = 1643731681405
+C:\Users\mothe\.m2\repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar = 1643731681405
+C:\Users\mothe\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar = 1643731681471
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-validation\0.8.1\dropwizard-validation-0.8.1.jar = 1643731681439
+C:\Users\mothe\.m2\repository\org\hibernate\hibernate-validator\5.1.3.Final\hibernate-validator-5.1.3.Final.jar = 1643731682118
+C:\Users\mothe\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar = 1643731052587
+C:\Users\mothe\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar = 1643731681870
+C:\Users\mothe\.m2\repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar = 1643731681872
+C:\Users\mothe\.m2\repository\org\glassfish\javax.el\3.0.0\javax.el-3.0.0.jar = 1643731682121
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-configuration\0.8.1\dropwizard-configuration-0.8.1.jar = 1643731682073
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.5.1\jackson-dataformat-yaml-2.5.1.jar = 1643731682435
+C:\Users\mothe\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar = 1643731682461
+C:\Users\mothe\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar = 1643731145124
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-logging\0.8.1\dropwizard-logging-0.8.1.jar = 1643731682562
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-logback\3.1.1\metrics-logback-3.1.1.jar = 1643731682559
+C:\Users\mothe\.m2\repository\org\slf4j\jul-to-slf4j\1.7.10\jul-to-slf4j-1.7.10.jar = 1643731682810
+C:\Users\mothe\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar = 1643731683053
+C:\Users\mothe\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.10\log4j-over-slf4j-1.7.10.jar = 1643731682963
+C:\Users\mothe\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.10\jcl-over-slf4j-1.7.10.jar = 1643731683006
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-util\9.2.9.v20150224\jetty-util-9.2.9.v20150224.jar = 1643731683131
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-metrics\0.8.1\dropwizard-metrics-0.8.1.jar = 1643731683236
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-jersey\0.8.1\dropwizard-jersey-0.8.1.jar = 1643731683534
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\core\jersey-server\2.17\jersey-server-2.17.jar = 1643731683805
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\core\jersey-common\2.17\jersey-common-2.17.jar = 1643731683652
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.17\jersey-guava-2.17.jar = 1643731684091
+C:\Users\mothe\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar = 1643731683805
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\core\jersey-client\2.17\jersey-client-2.17.jar = 1643731684148
+C:\Users\mothe\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar = 1643731684148
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.17\jersey-media-jaxb-2.17.jar = 1643731684286
+C:\Users\mothe\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar = 1643731684391
+C:\Users\mothe\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b10\hk2-api-2.4.0-b10.jar = 1643731684651
+C:\Users\mothe\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b10\hk2-utils-2.4.0-b10.jar = 1643731684636
+C:\Users\mothe\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b10\aopalliance-repackaged-2.4.0-b10.jar = 1643731684605
+C:\Users\mothe\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b10\javax.inject-2.4.0-b10.jar = 1643731684961
+C:\Users\mothe\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b10\hk2-locator-2.4.0-b10.jar = 1643731684901
+C:\Users\mothe\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar = 1643731685371
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\ext\jersey-metainf-services\2.17\jersey-metainf-services-2.17.jar = 1643731685196
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-jersey2\3.1.1\metrics-jersey2-3.1.1.jar = 1643731685191
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.5.1\jackson-jaxrs-json-provider-2.5.1.jar = 1643731685406
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.5.1\jackson-jaxrs-base-2.5.1.jar = 1643731685431
+C:\Users\mothe\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.5.1\jackson-module-jaxb-annotations-2.5.1.jar = 1643731686091
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.17\jersey-container-servlet-2.17.jar = 1643731685911
+C:\Users\mothe\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.17\jersey-container-servlet-core-2.17.jar = 1643731685929
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-server\9.2.9.v20150224\jetty-server-9.2.9.v20150224.jar = 1643731686076
+C:\Users\mothe\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar = 1643731685961
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-io\9.2.9.v20150224\jetty-io-9.2.9.v20150224.jar = 1643731686446
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-webapp\9.2.9.v20150224\jetty-webapp-9.2.9.v20150224.jar = 1643731686431
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-xml\9.2.9.v20150224\jetty-xml-9.2.9.v20150224.jar = 1643731686446
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-continuation\9.2.9.v20150224\jetty-continuation-9.2.9.v20150224.jar = 1643731686541
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-servlets\0.8.1\dropwizard-servlets-0.8.1.jar = 1643731686708
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-annotation\3.1.1\metrics-annotation-3.1.1.jar = 1643731686881
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-jetty\0.8.1\dropwizard-jetty-0.8.1.jar = 1643731686971
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-jetty9\3.1.1\metrics-jetty9-3.1.1.jar = 1643731686881
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-servlet\9.2.9.v20150224\jetty-servlet-9.2.9.v20150224.jar = 1643731687041
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-security\9.2.9.v20150224\jetty-security-9.2.9.v20150224.jar = 1643731687188
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-servlets\9.2.9.v20150224\jetty-servlets-9.2.9.v20150224.jar = 1643731687354
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\jetty-http\9.2.9.v20150224\jetty-http-9.2.9.v20150224.jar = 1643731687361
+C:\Users\mothe\.m2\repository\io\dropwizard\dropwizard-lifecycle\0.8.1\dropwizard-lifecycle-0.8.1.jar = 1643731687541
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-core\3.1.1\metrics-core-3.1.1.jar = 1643731687521
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-jvm\3.1.1\metrics-jvm-3.1.1.jar = 1643731687691
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-servlets\3.1.1\metrics-servlets-3.1.1.jar = 1643731687751
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-json\3.1.1\metrics-json-3.1.1.jar = 1643731687898
+C:\Users\mothe\.m2\repository\io\dropwizard\metrics\metrics-healthchecks\3.1.1\metrics-healthchecks-3.1.1.jar = 1643731687951
+C:\Users\mothe\.m2\repository\net\sourceforge\argparse4j\argparse4j\0.4.4\argparse4j-0.4.4.jar = 1643731688091
+C:\Users\mothe\.m2\repository\org\eclipse\jetty\toolchain\setuid\jetty-setuid-java\1.0.2\jetty-setuid-java-1.0.2.jar = 1643731688140
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-model\target\watch-model-1.0-SNAPSHOT.jar = 1643731603601
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\src\main\java = 1643731461971
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\generated-sources\annotations = 1643731688741
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\allclasses-index.html = 1643731702976
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\allpackages-index.html = 1643731702981
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\element-list = 1643731702750
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\help-doc.html = 1643731703041
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\index-all.html = 1643731703026
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\index.html = 1643731702946
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\jquery-ui.overrides.css = 1643731703126
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\member-search-index.js = 1643731702991
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\module-search-index.js = 1643731702988
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\overview-summary.html = 1643731703031
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\overview-tree.html = 1643731702936
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\package-search-index.js = 1643731702988
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\script.js = 1643731703041
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\search.js = 1643731703076
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\stylesheet.css = 1643731703041
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\tag-search-index.js = 1643731702991
+E:\devopsclass2022\j-feb2022\maven\flipkart\republic\watch\watch\watch-service\target\apidocs\type-search-index.js = 1643731702991

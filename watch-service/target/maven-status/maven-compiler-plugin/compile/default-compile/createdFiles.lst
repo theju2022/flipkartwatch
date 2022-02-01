@@ -1,0 +1,4 @@
+flipkart\watch\conf\HelloWorldConfiguration.class
+flipkart\watch\health\TemplateHealthCheck.class
+flipkart\watch\HelloWorldService.class
+flipkart\watch\resource\HelloWorldResource.class
